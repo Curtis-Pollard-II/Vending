@@ -1,7 +1,8 @@
-import { ValuesController } from "./Controllers/ValuesController.js";
+import { LeavesController } from "./Controllers/LeavesController.js";
 
 class App {
-  valuesController = new ValuesController();
+  // valuesController = new ValuesController();
+  leavesController = new LeavesController()
 }
 
 window["app"] = new App();
